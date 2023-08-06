@@ -9,7 +9,7 @@
   	<meta http-equiv="x-ua-compatible" content="ie=edge">
   	 <title>Samarqand Bukhari Restaurant | Jubail City, Saudi Arabia | Menu</title>
 
-    <meta name="keywords" content="Restaurant, مطعم, Samarqand Bukhari Restaurant, Samarkand Bukhari Restaurant Al Jubayl,  Top rated Restaurant in Al Jubayl, Good, Jubail Industrial City, الجبيل, Saudi Arabia, menu, منيو, reservations, dining, cuisine">
+    <meta name="keywords" content="Restaurant, مطعم, Samarqand Bukhari Restaurants,, Jubail Industrial City, الجبيل, Saudi Arabia, menu, منيو, reservations, dining, cuisine">
 		<meta name="description" content="Welcome to Samarqand Bukhari Restaurant, located in Jubail Industrial City, Saudi Arabia. Explore our delicious menu for an unforgettable dining experience.">
 		  <link rel="canonical" href="index.html">
 
@@ -19,9 +19,7 @@
       <meta property="og:site_name" content="Samarqand Bukhari Restaurant | Jubail City, Saudi Arabia | Menu">
       <meta property="og:title" content="Samarqand Bukhari Restaurant | Jubail City, Saudi Arabia">
       <meta property="og:type" content="website">
-      <meta property="og:image" content="">
-      <meta property="og:url" content="https://samarqand-bukhari.online/">
-      <meta property="og:description" content="">
+      <meta property="og:url" content="index.html">
 
     <meta name="geo.region" content="SA-04">
     <meta name="geo.placename" content="Jubail Industrial City">
@@ -31,7 +29,8 @@
 
     <!-- .stylesheets -->
     <link rel="stylesheet" type="text/css" href="assets/style/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/styrene-a/styrene-a.css">
+
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <!-- /.stylesheets -->
 
@@ -44,19 +43,8 @@
     <!-- /.favicon -->
 
     <!-- Google tag (gtag.js) -->
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NL0H7L479Q"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
 
-      gtag('config', 'G-NL0H7L479Q');
-    </script>
     <!-- /.googleTags -->
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2195862876988519"
-     crossorigin="anonymous"></script>
 
     <!-- .schema.org -->
     <script type="application/ld+json">
@@ -114,23 +102,27 @@
 
   </head>
 
-  <body class="index-template">
+  <body>
 
-    <div class="site-index-top"  data-router="segment" data-router-uri="/" data-router-base aria-hidden="true" tabindex="-1"></div>
-
-    <header class="site-header">
+    <header>
       <div class="site-header-desktop">
         <div class="site-header-desktop-primary">
           <div class="site-header-desktop-primary_container">
             <div id="nav-container" class="nav-container">
               <div class="menu-items">
-                <a class="menu-items-bur main-content" href="#Location">LOCATION & HOURS<br>الموقع والساعات</a>
-                <a class="menu-items-bur main-content" style="margin-right: 10px;" href="#About">ABOUT<br>عن المطعم</a>
-                <a class="menu-items-bur food-options" href="#BBQ">BBQ<br>الفحم</a>
-                <a class="menu-items-bur food-options" href="#Grill">Grill<br>شواية</a>
-                <a class="menu-items-bur food-options" href="#Chops">Chops<br>ريش</a>
-                <a class="menu-items-bur food-options" href="#Curry">Curry<br>كاري</a>
-                <a class="menu-items-bur food-options" href="#Others">Others<br>أطباق أخرى</a>
+                <img width="80px" src="assets\imgs\wolff-logo\Wolff_white_background.png" alt="">
+
+                <div class="checkbox-wrapper-41">
+                  <input id="toggleLangSwitch" type="checkbox"><a style="display: flex; position: absolute; width: 0px;" href="#"><span id="eng" style="height: 30px; font-size: 20px; transform: translate(55px, 8px); color: #03CDA4">عربي</span><br><span id="ar" style="height: 30px; font-size: 25px; transform: translate(10px, 6px); color: #253338">EN</span></a>
+                </div>
+
+                <a class="menu-items-bur" href="#About"><span id="eng">ABOUT</span><br><span id="ar">عن المطعم</span></a>
+                <a class="menu-items-bur" href="#BBQ"><span id="eng">BBQ</span><br><span id="ar">الفحم</span></a>
+                <a class="menu-items-bur" href="#Grill"><span id="eng">GRILL</span><br><span id="ar">شواية</span></a>
+                <a class="menu-items-bur" href="#Chops"><span id="eng">CHOPS</span><br><span id="ar">ريش</span></a>
+                <a class="menu-items-bur" href="#Curry"><span id="eng">CURRY</span><br><span id="ar">كاري</span></a>
+                <a class="menu-items-bur" href="#Others"><span id="eng">OTHERS</span><br><span id="ar">أطباق أخرى</span></a>
+
                 <div id="menu-items-burger-mini">
                   <input type="checkbox" />
                       <span></span>
@@ -144,6 +136,7 @@
                       <a class="menu-items-burger-mini-cont" href="#Others">Others | أطباق أخرى</a>
                     </ul>
                   </div>
+
               </div>
             </div>
               <a class="site-logo">SAMARQAND BUKHARI RESTAURANT
@@ -293,5 +286,25 @@
       <img style="padding-bottom: 8px" width="30px" src="assets\imgs\wolff-logo\Wolff_white_background.png">
     </div>
   </footer>
+
+    <script type="text/javascript">
+    var input = document.getElementById('toggleLangSwitch');
+    var eng = document.querySelectorAll("[id='eng']");
+    var ar = document.querySelectorAll("[id='ar']");
+
+    input.addEventListener('change',function(){
+      if(this.checked) {
+        for(var i = 0; i < eng.length; i++)
+          eng[i].style.display = "none";
+        for(var i = 0; i < ar.length; i++)
+          ar[i].style.display = "flex";
+      } else {
+        for(var i = 0; i < eng.length; i++)
+          eng[i].style.display = "flex";
+        for(var i = 0; i < ar.length; i++)
+          ar[i].style.display = "none";
+      }
+    });
+    </script>
 
   </html>
